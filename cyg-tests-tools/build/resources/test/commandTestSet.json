@@ -1,0 +1,56 @@
+{
+	"*include": "productTestSet,personneTestSet",
+	"dataClass": "com.cyg.tools.tests.test.model.Command",
+	"sets": [
+		{
+			"name": "commands1",
+			"data": [
+				{
+					"id": 1,
+					"reference": "C000001",
+					"date": "17/01/2019",
+					"->customer" : "personnes1",
+					"lines": [
+						{
+							"id": 1,
+							"quantity": 1,
+							"->product": "products1,0",
+							"->command": "commands1,0"
+						},
+						{
+							"id": 2,
+							"quantity": 2,
+							"->product": "products1,1",
+							"->command": "commands1,0"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "commands2",
+			"data": [
+				{
+					"id": 1,
+					"reference": "C000001",
+					"*date": "now",
+					"->customer" : "personnes1",
+					"lines": [
+						{
+							"id": 1,
+							"quantity": 1,
+							"->product": "products1,0",
+							"->command": "commands1,0"
+						},
+						{
+							"id": 2,
+							"quantity": 2,
+							"->product": "products1,1",
+							"->command": "commands1,0"
+						}
+					]
+				}
+			]
+		}
+	]
+}

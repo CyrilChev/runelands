@@ -1,0 +1,29 @@
+{
+	"*include": "productTestSet",
+	"dataClass": "com.cyg.tools.tests.test.model.Price",
+	"sets": [
+		{
+			"name": "prices1",
+			"data": [
+				{
+					"id": 2,
+					"date": "01/01/2019",
+					"price": "28.12",
+					"->product": "products1,1"
+				},
+				{
+					"id": 3,
+					"date": "01/01/2018",
+					"price": "27.54",
+					"->product": "products1,1"
+				},
+				{
+					"id": 4,
+					"date": "01/01/2017",
+					"price": "27.21",
+					"->product": "products1,1"
+				}
+			]
+		}
+	]
+}

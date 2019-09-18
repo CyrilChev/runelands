@@ -1,0 +1,54 @@
+{
+	"dataClass": "com.cyg.tools.tests.test.model.Adresse",
+	"sets": [
+		{
+			"name": "adresses1",
+			"data": [
+				{
+					"id": 1,
+					"town": "Juvisy-sur-Orge",
+					"cp": "91260"
+				},
+				{
+					"id": 2,
+					"town": "Paris",
+					"cp": "75001"
+				},
+				{
+					"id": 3,
+					"town": "Marseille",
+					"cp": "75003"
+				}
+			]
+		},
+		{
+			"name": "adresses2",
+			"data": [
+				{
+					"id": 4,
+					"town": "Paris",
+					"cp": "75013"
+				}
+			]
+		},
+		{
+			"name": "adresseToAdd",
+			"data": [
+				{
+					"town": "Paris",
+					"cp": "75002"
+				}
+			]
+		},
+		{
+			"name": "adresseToAddSaved",
+			"data": [
+				{
+					"id": 4,
+					"town": "Paris",
+					"cp": "75002"
+				}
+			]
+		}
+	]
+}

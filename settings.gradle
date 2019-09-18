@@ -1,0 +1,5 @@
+rootProject.name = 'runelands'
+include 'runelands-core'
+include 'cyg-tests-tools'
+include 'cyg-tools'
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyg.tools.helper.GenericsHelperTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-09-18T12:14:50" hostname="813NSN2" time="0.039">
+  <properties/>
+  <testcase name="whenValidGenericsInterface_shouldReturnGenericClass" classname="com.cyg.tools.helper.GenericsHelperTest" time="0.032"/>
+  <testcase name="whenGenericsInvalidIndex_shouldReturnNull" classname="com.cyg.tools.helper.GenericsHelperTest" time="0.006"/>
+  <testcase name="whenGenericsInvalidGeneric_shouldReturnNull" classname="com.cyg.tools.helper.GenericsHelperTest" time="0.0"/>
+  <testcase name="whenValidGenerics_shouldReturnGenericClass" classname="com.cyg.tools.helper.GenericsHelperTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

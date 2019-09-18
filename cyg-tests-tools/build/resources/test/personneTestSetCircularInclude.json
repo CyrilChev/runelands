@@ -1,0 +1,18 @@
+{
+	"*include": "adresseTestSetCircularInclude",
+	"dataClass": "com.cyg.tools.tests.test.model.Personne",
+	"sets": [
+		{
+			"name": "personnes1",
+			"data": [
+				{
+					"id": 1,
+					"name": "Cyril",
+					"firstname": "Chevalier",
+					"age": 45,
+					"->address": "adresses1,1"
+				}
+			]
+		}
+	]
+}

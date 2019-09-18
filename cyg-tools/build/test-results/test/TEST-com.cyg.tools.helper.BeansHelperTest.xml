@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.cyg.tools.helper.BeansHelperTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-18T12:14:50" hostname="813NSN2" time="0.07">
+  <properties/>
+  <testcase name="whenMultiSortAscDscInfo_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.061"/>
+  <testcase name="whenSingleSortAscInfo_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.003"/>
+  <testcase name="whenIncomparableSortInfo_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.001"/>
+  <testcase name="whenSortOnNullData_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.0"/>
+  <testcase name="whenEmptySortInfo_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.002"/>
+  <testcase name="whenInvalidSortInfo_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.001"/>
+  <testcase name="whenSingleSortDscInfo_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.0"/>
+  <testcase name="whenMultiSortAscInfo_thenShouldReturnValidComparator" classname="com.cyg.tools.helper.BeansHelperTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

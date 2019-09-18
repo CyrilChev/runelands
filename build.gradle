@@ -1,0 +1,30 @@
+allprojects {
+    apply plugin: 'java'
+    group = 'com.cyg'
+    version = '0.0.1-SNAPSHOT'
+}
+
+subprojects {
+    apply plugin: 'java'
+    repositories {
+        mavenCentral()
+    }
+
+    dependencies {
+        compile 'io.vavr:vavr:0.9.3'
+        compile 'io.vavr:vavr-jackson:0.9.3'
+        compileOnly 'org.projectlombok:lombok:1.18.10'
+        annotationProcessor 'org.projectlombok:lombok:1.18.10'
+        compile 'com.fasterxml.jackson.core:jackson-databind:2.9.9'
+        compile 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.9.9'
+        compile 'org.slf4j:slf4j-api:1.7.25'
+        compile 'org.apache.logging.log4j:log4j-to-slf4j:2.10.0'
+        compile 'ch.qos.logback:logback-classic:1.2.3'
+
+        testCompileOnly 'org.projectlombok:lombok:1.18.10'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.10'
+        testCompile 'junit:junit:4.12'
+        testCompile 'org.assertj:assertj-core:3.9.1'
+        testCompile 'org.assertj:assertj-vavr:0.0.1'
+    }
+}

@@ -1,0 +1,80 @@
+{
+	"*include": "adresseTestSet",
+	"dataClass": "com.cyg.tools.tests.test.model.Personne",
+	"sets": [
+		{
+			"name": "personnes1",
+			"data": [
+				{
+					"id": 1,
+					"name": "Cyril",
+					"firstname": "Chevalier",
+					"age": 45,
+					"->address": "adresses1,1"
+				}
+			]
+		},
+		{
+			"name": "personnes2",
+			"data": [
+				{
+					"id": 1,
+					"name": "Cyril",
+					"firstname": "Chevalier",
+					"age": 45,
+					"->address": "adresses1",
+					"->addresses": "adresses1"
+				},
+				{
+					"id": 2,
+					"name": "Paul",
+					"firstname": "Martin",
+					"age": 53,
+					"->address": "adresses1,2",
+					"->addresses": "adresses1,2,0"
+				},
+				{
+					"id": 2,
+					"name": "Paul",
+					"firstname": "Martin",
+					"age": 53,
+					"->address": "adresses1,2",
+					"->addresses": "adresses1,2,38,0,zzz"
+				}
+			]
+		},
+		{
+			"name": "personnes3",
+			"data": [
+				{
+					"id": 1,
+					"name": "Chevalier",
+					"firstname": "Cyril",
+					"age": 45,
+					"->address": "adresses1"
+				},
+				{
+					"id": 2,
+					"name": "Durant",
+					"firstname": "Paul",
+					"age": 45,
+					"->address": "adresses1,1"
+				},
+				{
+					"id": 3,
+					"name": "Dupont",
+					"firstname": "Pierre",
+					"age": 45,
+					"->address": "adresses1,2"
+				},
+				{
+					"id": 4,
+					"name": "Martin",
+					"firstname": "Jean",
+					"age": 45,
+					"->address": "adresses1,1"
+				}
+			]
+		}
+	]
+}

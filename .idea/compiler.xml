@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="runelands.cyg-tests.main" target="1.8" />
+      <module name="runelands.cyg-tests.test" target="1.8" />
+      <module name="runelands.test-datasets.main" target="1.8" />
+      <module name="runelands.test-datasets.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'uk.com.robust-it:cloning:1.9.11'
+    implementation project(':cyg-tools')
+}
